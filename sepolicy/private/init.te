@@ -8,3 +8,6 @@ allow init {
 
 # Allow init to mount offline charging daemon
 allow init rootfs:file mounton;
+
+# Allow init to write to otg_switch
+allow init sysfs_usb_supply:file w_file_perms;
