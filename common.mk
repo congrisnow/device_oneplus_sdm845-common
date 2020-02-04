@@ -138,10 +138,6 @@ PRODUCT_PACKAGES += \
     vendor.nxp.nxpese@1.0:64 \
     vendor.nxp.nxpnfc@1.0:64
 
-# Offline Charging
-PRODUCT_PACKAGES += \
-    chargeonlymode
-
 # Power
 PRODUCT_PACKAGES += \
     power.qcom:64
