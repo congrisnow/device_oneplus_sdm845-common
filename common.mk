@@ -84,11 +84,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
-# Camera
+# Camera & Gallery
 PRODUCT_PACKAGES += \
     GoogleCamera \
     OnePlusCamera \
-    OnePlusCameraService
+    OnePlusCameraService \
+    OnePlusGallery
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/etc/permissions/com.google.android.GoogleCamera.xml:system/etc/permissions/com.google.android.GoogleCamera.xml \
